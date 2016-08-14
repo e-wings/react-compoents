@@ -2,7 +2,7 @@ import React from 'react';
 
 const ItemList = (props) => {
     let items = props.items.map(item => <li key={ item }>{ item }</li>),
-      loading = props.loading ? <div className="loading-label">Loading...</div> : '';
+      loading = props.loading ? <div className="loading-label">Loading......</div> : '';
 
     return (
       <div>
